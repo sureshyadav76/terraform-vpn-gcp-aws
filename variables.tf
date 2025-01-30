@@ -17,7 +17,7 @@ variable "subnet_europe_west3" {
 
 variable "gcp_project" {
   type        = string
-  default     = "soy-smile-435017-c5"
+  default     = "soy-smile-4317-c5"
   description = "GCP project name"
 }
 
