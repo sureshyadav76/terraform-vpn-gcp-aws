@@ -1,0 +1,46 @@
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Serverless directories
+.serverless
+
+# Terraform files
+*.tfvars
+*.tfvars.*
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# .retry files files
+*.retry
+# dev testing hosts file
+*-hosts
+*hosts
+*_hosts
+# Do not store keys in git!
+ssh_keys/*.pub
+*.pem
+*.key
+*.pub
+
